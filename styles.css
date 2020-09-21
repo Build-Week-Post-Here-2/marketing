@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Ubuntu&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/*GENERAL STYLES*/
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:1.6rem;
+    line-height: 1.5;
+    font-family: 'Antic Slab', serif;
+    margin: 0 5%;
+}
+
+h1 {
+    color: #262729;
+    font-size: 3.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+h2 {
+    color: #FF5700;
+    font-size: 2.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    margin-bottom: 2.5%;
+}
+
+a:hover {
+    color:black;
+}
+/* Home Styles */
+
+#head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom:5px solid #E03102;
+    margin-bottom: 2.5%;
+}
+
+#head button {
+    color: #262729;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 2%;
+    background-color:#FF5700;
+    transition: 1s;
+}
+
+#head button:hover {
+    background-color: white;
+}
+
+#head a {
+    margin-top: 2.5%;
+}
+
+nav {
+    margin: 2.5% 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    margin: 0 5%;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* About Reddit */
+
+#aboutRed {
+    margin-bottom: 2.5%;
+    text-align: center;
+    border-bottom:5px solid #E03102;
+    padding-bottom:  2.5%;
+}
+
+/* Mid Section */
+
+#mostPop {
+    display: flex;
+    flex-direction: column;
+    border-bottom:5px solid #E03102;
+}
+
+.subreddits {
+    margin: 2.5% 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.subreddit {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.subreddit a {
+    text-decoration: none;
+}
+
+/* About Page Styles */
+
+#why {
+    border-bottom:5px solid #E03102;
+    padding-bottom: 2.5%;
+    margin-bottom: 2.5%;
+    text-align: center;
+}
+
+#how {
+    border-bottom:5px solid #E03102;
+    padding-bottom: 2.5%;
+    text-align: center;
+}
+
+
+
