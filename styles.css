@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Ubuntu&display=swap');
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Antic Slab', serif;
+    color:  #262729;
+    padding: 1% 4%;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 1.5% 0;
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 0 26%;
+}
+
+h2, h3, h4 {
+    font-size: 2.5rem;
+    color: #FF5700;
+}
+
+a {
+    text-decoration: none;
+    color: #0077D6;
+}
+
+header {
+    display: flex;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer {
+    display: flex;
+}
+
+/* End of General styles */
+
+
+/* Header specific styles */
+
+button {
+    justify-content: space-around;
+    margin: 1% 15%;
+}
+
+
+/* Main specific styles */
+
+.emphasis {
+    font-weight: 800;
+}
+
+/* Footer specific styles */
+
+
+/* Beginnign of Breakpoints */
