@@ -48,19 +48,12 @@ a {
     text-align: center;
 }
 
-section {
+section.news {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin:5% 0;
 }
-
-footer {
-    display: flex;
-}
-
-/* End of General styles */
-
 
 /* Header specific styles */
 
@@ -73,9 +66,6 @@ button {
     box-shadow: 0px 4px 15px -10px  #0077D6;
     border-bottom: 4px solid #FF5700;
 }
-
-
-/* Main specific styles */
 
 header {
     display: flex;
@@ -90,10 +80,7 @@ header {
     width: 65%;
 }
 
-.update {
-    margin: 1.5%;
-    line-height: 1.5;
-}
+/* Main content specific styles */
 
 .emphasis {
     font-weight: 800;
@@ -111,9 +98,84 @@ footer {
     justify-content: space-between;
 }
 
+
 /* Page Specific styles*/
 
+/* News page specific*/
 
+.update {
+    margin: 1.5%;
+    line-height: 1.5;
+}
+
+/* Meet the Team specific*/
+
+.team-grid {
+    margin: 4% 5%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 48%;
+    margin-bottom: 2%;
+}
+
+div.prof-img {
+    display: flex;
+    justify-content: space-evenly;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-size: 12rem;
+}
+
+#mr {
+    background-image: url(./profile-imgs/Michael.jpg);
+}
+
+#sk {
+    background-image: url(./profile-imgs/Shahnam.jpg);
+}
+
+#ac {
+    background-image: url(./profile-imgs/Arturo.png);
+}
+
+#mmb {
+    background-image: url(./profile-imgs/Maxwell.jpg);
+}
+
+#ab {
+    background-image: url(./profile-imgs/angelika.jpg);
+}
+
+#ms {
+    background-image: url(./profile-imgs/Marcos.jpg);
+}
+
+#hj {
+    background-image: url(./profile-imgs/Sahar.jpg);
+}
+
+#ss {
+    background-image: url(./profile-imgs/Steve.png);
+}
+
+#hd {
+    background-image: url(./profile-imgs/Henry.jpg);
+}
+
+#sas {
+    background-image: url(./profile-imgs/Sami.png);
+}
 
 /* Beginning of Breakpoints */
 
@@ -129,7 +191,7 @@ footer {
     }
 
     h3{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     button {
@@ -141,6 +203,12 @@ footer {
     a {
         font-size: .8rem;
         margin: 3% 0;
+    }
+
+    div.prof-img {
+    height: 10vh;
+    width: 60%;
+    background-size: 5rem;
     }
 
     .header-links{
@@ -169,7 +237,14 @@ footer {
         font-size: 1rem;
     }
 
-        .header-links{
+    div.prof-img {
+        height: 12vh;
+        width: 60%;
+        background-size: 8rem;
+        align-items: space-between;
+    }
+
+    .header-links {
         width: 100%;
     }
 
@@ -180,28 +255,44 @@ footer {
 
 @media (min-width: 768px) {
     a{
-        font-size: 1.2rem;
+    font-size: 1.2rem;
+    margin: 1% 0;
     }
 
     button {
-    margin: 0 15%;
-    padding: 2%;
-    width: 50%;
-}
+        margin: 0 15%;
+        padding: 2%;
+        width: 50%;
+    }
+
+        div.prof-img {
+        height: 14vh;
+        width: 60%;
+        background-size: 12rem;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
 
 p {
     font-size: 1.3rem;
 }
+}
 
 @media (min-width: 1024px) {
 
+    div.prof-img {
+        height: 15vh;
+        width: 60%;
+        background-size: 15rem;
+    }
 
-        .header-links{
-        width: 85%;
+    .header-links{
+    width: 80%;
     }
 
     .footer-links {
         width: 65%;
-    }
-}
+    }   
 }
