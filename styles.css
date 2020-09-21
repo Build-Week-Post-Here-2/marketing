@@ -124,7 +124,6 @@ footer {
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    width: 48%;
     margin-bottom: 2%;
 }
 
@@ -133,7 +132,7 @@ div.prof-img {
     justify-content: space-evenly;
     background-position: center;
     background-repeat: no-repeat;
-    border-radius: 50%;
+    border-radius: %;
     background-size: 12rem;
 }
 
@@ -205,6 +204,10 @@ div.prof-img {
         margin: 3% 0;
     }
 
+    div.profile {
+    width: 48%;
+    }
+
     div.prof-img {
     height: 10vh;
     width: 60%;
@@ -263,6 +266,10 @@ div.prof-img {
         margin: 0 15%;
         padding: 2%;
         width: 50%;
+    }
+
+    div.profile {
+        width: 32%;
     }
 
         div.prof-img {
