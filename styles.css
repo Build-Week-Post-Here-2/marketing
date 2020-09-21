@@ -9,6 +9,12 @@ body {
     font-family: 'Antic Slab', serif;
     color:  #262729;
     padding: 1% 4%;
+    box-sizing: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
 }
 
 h1, h2, h3, h4 {
@@ -16,29 +22,37 @@ h1, h2, h3, h4 {
     padding: 1.5% 0;
 }
 
+h2, h3, h4 {
+    color: #FF5700;
+}
+
 h1 {
     font-size: 4rem;
     margin: 0 26%;
+    text-align: center;
 }
 
-h2, h3, h4 {
-    font-size: 2.5rem;
-    color: #FF5700;
+h2 {
+    font-size: 2.3rem;
+    width: 100%;
+    text-shadow: 2px 2px 5px #ff550083;
+}
+
+h3 {
+    font-size: 1.3rem;
 }
 
 a {
     text-decoration: none;
     color: #0077D6;
-}
-
-header {
-    display: flex;
+    text-align: center;
 }
 
 section {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin:5% 0;
 }
 
 footer {
@@ -51,12 +65,35 @@ footer {
 /* Header specific styles */
 
 button {
-    justify-content: space-around;
-    margin: 1% 15%;
+    text-align: center;
+    background: #0077D6;
+    border-radius: 10px;
+    color: #ffffff;
+    border: 0;
+    box-shadow: 0px 4px 15px -10px  #0077D6;
+    border-bottom: 4px solid #FF5700;
 }
 
 
 /* Main specific styles */
+
+header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.header-links {
+    display: flex;
+    justify-content: space-around;
+    width: 65%;
+}
+
+.update {
+    margin: 1.5%;
+    line-height: 1.5;
+}
 
 .emphasis {
     font-weight: 800;
@@ -64,5 +101,107 @@ button {
 
 /* Footer specific styles */
 
+footer {
+    display: flex;
+    justify-content: space-around;
+}
 
-/* Beginnign of Breakpoints */
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Page Specific styles*/
+
+
+
+/* Beginning of Breakpoints */
+
+@media (min-width: 280px) {
+    h1 {
+        text-align: center;
+        font-size: 1.3rem;
+        margin: 0;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3{
+        font-size: 1.2rem;
+    }
+
+    button {
+        margin: 2% 2%;
+        padding: 4%;
+        box-shadow: 0px 4px 8px -4px  #0077D6;
+    }
+
+    a {
+        font-size: .8rem;
+        margin: 3% 0;
+    }
+
+    .header-links{
+        width: 95%;
+    }
+
+    .footer-links {
+        width: 95%;
+    }
+}
+
+@media (min-width: 320px) {
+    h1 {
+        font-size: 2.3rem;
+    }
+
+    button {
+        font-size: 1.2rem;
+        margin: 0;
+        width: 80%;
+        padding: 2%;
+    }
+
+    a {
+        margin: 3% 0%;
+        font-size: 1rem;
+    }
+
+        .header-links{
+        width: 100%;
+    }
+
+    .footer-links {
+        width: 85%;
+    }
+}
+
+@media (min-width: 768px) {
+    a{
+        font-size: 1.2rem;
+    }
+
+    button {
+    margin: 0 15%;
+    padding: 2%;
+    width: 50%;
+}
+
+p {
+    font-size: 1.3rem;
+}
+
+@media (min-width: 1024px) {
+
+
+        .header-links{
+        width: 85%;
+    }
+
+    .footer-links {
+        width: 65%;
+    }
+}
+}
