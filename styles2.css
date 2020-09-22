@@ -140,5 +140,28 @@ nav a {
     text-align: center;
 }
 
+/* Media Querys */
+
+@media (max-width: 500px) {
+
+.allSubs {
+    display:flex;
+}
+
+.subreddits {
+    flex-direction:column;
+    align-items:center;
+    margin: 0 7%;
+}
+
+.subreddits img {
+    width: 40%;
+}
+
+.subreddit {
+    text-align:center;
+}
+}
+
 
 
