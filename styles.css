@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Ubuntu&display=swap');
 
+
+/* Generic styles*/
+
+
 html {
     font-size: 16px;
 }
@@ -8,7 +12,6 @@ body {
     background-color: #ffffff;
     font-family: 'Antic Slab', serif;
     color:  #262729;
-    padding: 1% 4%;
     box-sizing: 100%;
 }
 
@@ -48,12 +51,17 @@ a {
     text-align: center;
 }
 
+section {
+    padding: 1% 4% 0;
+}
+
 section.news {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin:5% 0;
 }
+
 
 /* Header specific styles */
 
@@ -80,17 +88,14 @@ header {
     width: 65%;
 }
 
-/* Main content specific styles */
-
-.emphasis {
-    font-weight: 800;
-}
 
 /* Footer specific styles */
 
 footer {
     display: flex;
     justify-content: space-around;
+    background-color: rgb(218, 218, 218);
+    padding: 3% 0;
 }
 
 .footer-links {
@@ -103,9 +108,30 @@ footer {
 
 /* News page specific*/
 
+div h3 {
+    text-align: center;
+}
+
 .update {
+    padding: 0 2%;
     margin: 1.5%;
     line-height: 1.5;
+}
+
+.update-1 {
+    padding: 0 2%;
+    margin: 1.5%;
+    line-height: 1.5;
+    background:#ff55001a;
+    border: solid 3px #ffffff;
+    border-radius: 20px;
+}
+
+.timestamp {
+    font-weight: 500;
+    color: #0077D6;
+    text-align: right;
+    text-shadow: 3px 3px 4px  #0076d663;
 }
 
 /* Meet the Team specific*/
@@ -178,6 +204,8 @@ div.prof-img {
 
 /* Beginning of Breakpoints */
 
+
+/*Mobile*/
 @media (min-width: 280px) {
     h1 {
         text-align: center;
@@ -287,7 +315,24 @@ p {
 }
 }
 
+/* Desktop +*/
 @media (min-width: 1024px) {
+    .header-links{
+        margin: 2% 0 0;
+    }
+    .update {
+        margin: 0;
+    }
+
+    .update-1 {
+        margin: 0;
+    }
+
+    button {
+        margin: 0 15%;
+        padding: 2%;
+        width: 50%;
+    }
 
     div.prof-img {
         height: 15vh;
@@ -299,7 +344,20 @@ p {
     width: 80%;
     }
 
+    footer {
+        padding: 1.5%;
+    }
+
     .footer-links {
         width: 65%;
     }   
 }
+
+@media (min-width: 1366px) {
+
+}
+
+@media (min-width: 1440px) {
+
+}
+
