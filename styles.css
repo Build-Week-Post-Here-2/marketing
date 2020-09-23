@@ -443,6 +443,11 @@ p {
 
 /* Desktop +*/
 @media (min-width: 1024px) {
+
+    .news {
+        padding: 0 25%;
+    }
+
     .header-links{
         margin: 2% 0 0;
     }
