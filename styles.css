@@ -380,7 +380,8 @@ div.profile h3 {
     }
 
     a.skip-nav:focus {
-        width: 20%;
+        font-size: 1.2rem;
+        width: 35%;
     }
 
     div.prof-img {
@@ -427,6 +428,10 @@ div.profile h3 {
         background-size: 12rem;
     }
 
+    h1 {
+        font-size: 3.5rem;
+    }
+
     h3 {
         font-size: 1.3rem;
     }
@@ -434,7 +439,7 @@ div.profile h3 {
 p {
     font-size: 1.3rem;
 }
-}
+}   
 
 /* Desktop +*/
 @media (min-width: 1024px) {
@@ -462,6 +467,7 @@ p {
     }
     
     a.skip-nav:focus {
+        width: 25%;
         font-size: 1.5rem;
     }
 
@@ -483,6 +489,11 @@ p {
 }
 
 @media (min-width: 1920px) {
+
+    a.skip-nav {
+        width: 10%;
+    }
+
     a.github:hover, a.github:focus {
         left: 10%;
         width: 80%;
