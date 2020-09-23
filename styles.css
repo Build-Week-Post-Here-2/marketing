@@ -51,6 +51,25 @@ a {
     text-align: center;
 }
 
+a.skip-nav {
+    color: #ffffff;
+    background-image: linear-gradient();
+    width: 15%;
+    left: 5%;
+    position: absolute;
+    padding: 1%;
+    transform: translateY(-250%);
+}
+
+a.skip-nav:focus, a.skip-nav:hover   {
+    position: absolute;
+    background-image: linear-gradient(to right, #FF5700,  #a13600);
+    outline: transparent;
+    border-radius: 10px;
+    transform: translateY(0%);
+    transition: .2s ease;
+}
+
 section {
     padding: 1% 4% 0;
 }
@@ -196,12 +215,6 @@ a.github {
 
 a.github:hover, a.github:focus{
     position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0%;
-    height: 100%;
-    width: 100%;
     color: #ffffff;
     opacity: 1;
     background: #0076d68a;
@@ -320,6 +333,11 @@ div.profile h3 {
         margin: 3% 0;
     }
 
+    a.skip-nav {
+        width: 35%;
+        font-size: 1rem;
+    }
+
     a.github:hover, a.github:focus {
         outline: none;
         font-size: 1.3rem;
@@ -359,6 +377,10 @@ div.profile h3 {
     a {
         margin: 3% 0%;
         font-size: 1rem;
+    }
+
+    a.skip-nav:focus {
+        width: 20%;
     }
 
     div.prof-img {
@@ -438,6 +460,10 @@ p {
         width: 60%;
         background-size: 15rem;
     }
+    
+    a.skip-nav:focus {
+        font-size: 1.5rem;
+    }
 
     a.github:hover, a.github:focus {
         font-size: 2.3rem;
@@ -456,3 +482,9 @@ p {
     }   
 }
 
+@media (min-width: 1920px) {
+    a.github:hover, a.github:focus {
+        left: 10%;
+        width: 80%;
+    }
+}
