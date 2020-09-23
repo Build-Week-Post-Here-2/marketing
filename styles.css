@@ -51,6 +51,10 @@ a {
     text-align: center;
 }
 
+a:focus {
+    border:#FF5700;
+}
+
 a.skip-nav {
     color: #ffffff;
     background-image: linear-gradient();
@@ -84,6 +88,11 @@ section.news {
 
 /* Header specific styles */
 
+.buttons {
+    text-align: center;
+    margin: 1%;
+}
+
 button {
     text-align: center;
     background: #0077D6;
@@ -92,7 +101,15 @@ button {
     border: 0;
     box-shadow: 0px 4px 15px -10px  #0077D6;
     border-bottom: 4px solid #FF5700;
+
 }
+
+button:hover, button:focus {
+    cursor: pointer;
+    background: #00579e;
+    border-bottom: 4px solid transparent;
+}
+
 
 header {
     display: flex;
@@ -322,10 +339,9 @@ div.profile h3 {
     }
 
     button {
-        margin: 0 2%;
-        padding: 4%;
-        width: 80%;
+        padding: 1% 5%;
         box-shadow: 0px 4px 8px -4px  #0077D6;
+        margin: .5% 0;
     }
 
     a {
@@ -369,8 +385,7 @@ div.profile h3 {
 
     button {
         font-size: 1.2rem;
-        margin: 0;
-        width: 80%;
+        margin: 1% 0;
         padding: 2%;
     }
 
@@ -406,14 +421,12 @@ div.profile h3 {
     margin: 1% 0;
     }
 
-    button {
-        margin: 0 15%;
-        padding: 2%;
-        width: 50%;
-    }
-
     div.profile {
         width: 32%;
+    }
+
+    button {
+        padding: 1%;
     }
 
     a.github:hover, a.github:focus {
@@ -457,12 +470,6 @@ p {
 
     .update-1 {
         margin: 0;
-    }
-
-    button {
-        margin: 0 15%;
-        padding: 2%;
-        width: 50%;
     }
 
     div.prof-img {
