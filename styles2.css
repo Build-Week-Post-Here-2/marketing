@@ -40,6 +40,10 @@ h2 {
 }
 /* Home Styles */
 
+header {
+    margin:0 auto;
+}
+
 header nav {
     display:flex;
     justify-content: space-around;
