@@ -29,12 +29,6 @@ h2, h3, h4 {
     color: #FF5700;
 }
 
-h1 {
-    font-size: 4rem;
-    margin: 0 26%;
-    text-align: center;
-}
-
 h2 {
     font-size: 2.3rem;
     width: 100%;
@@ -51,32 +45,15 @@ a {
     text-align: center;
 }
 
-a:focus {
-    border:#FF5700;
-}
-
-a.skip-nav {
-    color: #ffffff;
-    background-image: linear-gradient();
-    width: 15%;
-    left: 5%;
-    position: absolute;
-    padding: 1%;
-    transform: translateY(-250%);
-}
-
-a.skip-nav:focus, a.skip-nav:hover   {
-    position: absolute;
-    background-image: linear-gradient(to right, #FF5700,  #a13600);
-    outline: transparent;
-    border-radius: 10px;
-    transform: translateY(0%);
-    transition: .2s ease;
-}
-
 section {
     padding: 1% 4% 0;
 }
+
+
+/* Page Specific styles*/
+
+/* News page specific*/
+
 
 section.news {
     display: flex;
@@ -84,83 +61,6 @@ section.news {
     justify-content: space-between;
     margin:5% 0;
 }
-
-
-/* Header specific styles */
-
-.buttons {
-    text-align: center;
-    margin: 1%;
-}
-
-button {
-    text-align: center;
-    background: #0077D6;
-    border-radius: 10px;
-    color: #ffffff;
-    border: 0;
-    box-shadow: 0px 4px 15px -10px  #0077D6;
-    border-bottom: 4px solid #FF5700;
-
-}
-
-button:hover, button:focus {
-    cursor: pointer;
-    background: #00579e;
-    border-bottom: 4px solid transparent;
-}
-
-
-header {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: space-around;
-    border-width: 0 0 3px;
-    border-style: solid;
-    border-image: 
-    linear-gradient(
-      to right, 
-      rgba(0, 0, 0, 0),
-      #0077D6,  
-      rgba(0, 0, 0, 0)
-    ) 2 4 100%;
-}
-
-.header-links {
-    display: flex;
-    justify-content: space-around;
-    width: 65%;
-}
-
-
-/* Footer specific styles */
-
-footer {
-    display: flex;
-    justify-content: space-around;
-    background-color: #dadada3b;
-    padding: 3% 0;
-    border-width: 3px 0 0;
-    border-style: solid;
-    border-image: 
-    linear-gradient(
-      to right, 
-      rgba(0, 0, 0, 0),
-      #0077D6,  
-      rgba(0, 0, 0, 0)
-    ) 2 4 100%;
-}
-
-.footer-links {
-    display: flex;
-    justify-content: space-between;
-}
-
-
-/* Page Specific styles*/
-
-/* News page specific*/
 
 div h3 {
     text-align: center;
@@ -195,7 +95,7 @@ div h3 {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .profile {
@@ -324,34 +224,18 @@ div.profile h3 {
 
 /*Mobile*/
 @media (min-width: 280px) {
-    h1 {
-        text-align: center;
-        font-size: 1.5rem;
-        margin: 0;
-    }
 
     h2 {
         font-size: 1.5rem;
     }
 
-    h3{
+    h3 {
         font-size: 1rem;
-    }
-
-    button {
-        padding: 1% 5%;
-        box-shadow: 0px 4px 8px -4px  #0077D6;
-        margin: .5% 0;
     }
 
     a {
         font-size: .8rem;
         margin: 3% 0;
-    }
-
-    a.skip-nav {
-        width: 35%;
-        font-size: 1rem;
     }
 
     a.github:hover, a.github:focus {
@@ -368,35 +252,13 @@ div.profile h3 {
     width: 60%;
     background-size: 5rem;
     }
-
-    .header-links{
-        width: 95%;
-    }
-
-    .footer-links {
-        width: 95%;
-    }
 }
 
 @media (min-width: 320px) {
-    h1 {
-        font-size: 2.3rem;
-    }
-
-    button {
-        font-size: 1.2rem;
-        margin: 1% 0;
-        padding: 2%;
-    }
 
     a {
         margin: 3% 0%;
         font-size: 1rem;
-    }
-
-    a.skip-nav:focus {
-        font-size: 1.2rem;
-        width: 35%;
     }
 
     div.prof-img {
@@ -404,14 +266,6 @@ div.profile h3 {
         width: 60%;
         background-size: 8rem;
         align-items: space-between;
-    }
-
-    .header-links {
-        width: 100%;
-    }
-
-    .footer-links {
-        width: 85%;
     }
 }
 
@@ -425,10 +279,6 @@ div.profile h3 {
         width: 32%;
     }
 
-    button {
-        padding: 1%;
-    }
-
     a.github:hover, a.github:focus {
         font-size: 1.9rem;
         left: 0;
@@ -439,10 +289,6 @@ div.profile h3 {
         height: 14vh;
         width: 60%;
         background-size: 12rem;
-    }
-
-    h1 {
-        font-size: 3.5rem;
     }
 
     h3 {
@@ -461,9 +307,6 @@ p {
         padding: 0 25%;
     }
 
-    .header-links{
-        margin: 2% 0 0;
-    }
     .update {
         margin: 0;
     }
@@ -477,34 +320,13 @@ p {
         width: 60%;
         background-size: 15rem;
     }
-    
-    a.skip-nav:focus {
-        width: 25%;
-        font-size: 1.5rem;
-    }
 
     a.github:hover, a.github:focus {
         font-size: 2.3rem;
     }
-
-    .header-links{
-    width: 80%;
-    }
-
-    footer {
-        padding: 1.5%;
-    }
-
-    .footer-links {
-        width: 65%;
-    }   
 }
 
 @media (min-width: 1920px) {
-
-    a.skip-nav {
-        width: 10%;
-    }
 
     a.github:hover, a.github:focus {
         left: 10%;

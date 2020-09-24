@@ -5,24 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="header.css">
     <title>News & Updates</title>
 </head>
+
 <body>
     <header>
             <a href="./news.html#skip" class="skip-nav">Skip to Content</a>
-            <h1>Post Here</h1>
-            <div class="buttons">
-                <a href="https://front-end-post-here.vercel.app/login"><button>Log In</button></a>
-                <a href="https://front-end-post-here.vercel.app/signup"><button>Sign Up</button></a>
+            <div class="logo-buttons" id="topLink">
+                <h1 id="logo">Post Here</h1>
+                <div class="buttons">
+                    <a href="https://front-end-post-here.vercel.app/login"><button>Log In</button></a>
+                    <a href="https://front-end-post-here.vercel.app/signup"><button>Sign Up</button></a>
+                </div>
+            </div>
+            <div class="header-links">
+            <nav class="nav-links">
+                <a href="./index.html"> Home </a>
+                <a href="./about.html"> About </a>
+                <a href="./news.html">News</a>
+                <a href="./meet-the-team.html"> Meet the Team </a>
+            </nav>
         </div>
-            
-        <nav class="header-links">
-            <a href="./index.html"> Home </a>
-            <a href="./about.html"> About </a>
-            <a href="./news.html">News</a>
-            <a href="./meet-the-team.html"> Meet the Team </a>
-        </nav>
-
     </header>
 
     <section class="news" id="skip">
@@ -97,24 +101,26 @@
         <div class="update-1">
             <h3>Branches Deleted after Merge</h3>
             <p>Tidying up repo for transition into final stages.</p>
-            <p class="timestamp">Day 2, 9 AM</p>
+            <p class="timestamp">Day 3, 9 AM</p>
         </div>
 
                 <div class="update">
             <h3>UI stretch Goals</h3>
             <p>Added a skip to content. Completed animation transitions.</p>
-            <p class="timestamp">Day 2, 9:30 AM</p>
+            <p class="timestamp">Day 3, 9:30 AM</p>
         </div>
 
     </section>
 
-    <footer>
-    
-        <nav class="footer-links">
-            <a href="./index.html"> Home </a>
-            <a href="./about.html"> About </a>
-            <a href="./news.html"> News </a>
-            <a href="./meet-the-team.html"> Meet the Team </a>
+<footer id="foot">
+    <a href="News.html#topLink">Top</a>
+        <nav>
+            <a href="index.html" id="homeLink"> Home </a>
+            <a href="about.html"> About </a>
+            <a href="News.html"> News </a>
+            <a href="meet-the-team.html"> Meet the Team </a>
         </nav>
-    
-    </footer>
+</footer>
+
+</body>
+</html>
