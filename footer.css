@@ -31,3 +31,13 @@
 #foot nav #homeLink {
     border-left: none;
 }
+
+@media (max-width:500px) {
+    #foot #topLink {
+        width: 15%;
+    }
+
+    #foot nav {
+        padding: 1%;
+    }
+}
