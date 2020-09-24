@@ -55,43 +55,6 @@ a:hover {
 }
 /* Home Styles */
 
-#head {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-bottom:5px solid #E03102;
-    margin-bottom: 2.5%;
-}
-
-#head button {
-    color: #262729;
-    border-radius: 10px;
-    border: 2px solid black;
-    padding: 15%;
-    background-color:#FF5700;
-    transition: 1s;
-}
-
-#head button:hover {
-    background-color: white;
-}
-
-#head a {
-    margin-top: 2.5%;
-}
-
-nav {
-    margin: 2.5% 0;
-    display: flex;
-    justify-content: space-between;
-}
-
-nav a {
-    margin: 0 5%;
-    text-align: center;
-    text-decoration: none;
-}
-
 /* About Reddit */
 
 #aboutRed {
