@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="styles.css">
     <title>Meet the Team</title>
 </head>
@@ -11,18 +12,21 @@
 
     <header>
         <a href="./meet-the-team.html#skip" class="skip-nav">Skip to Content</a>
-        <h1>Post Here</h1>
-        <div class="buttons">
-            <a href="https://front-end-post-here.vercel.app/login"><button>Log In</button></a>
-            <a href="https://front-end-post-here.vercel.app/signup"><button>Sign Up</button></a>
+        <div class="logo-buttons" id="topLink">
+                <h1 id="logo">Post Here</h1>
+                <div class="buttons">
+                    <a href="https://front-end-post-here.vercel.app/login"><button>Log In</button></a>
+                    <a href="https://front-end-post-here.vercel.app/signup"><button>Sign Up</button></a>
+                </div>
+            </div>
+            <div class="header-links">
+            <nav class="nav-links">
+                <a href="./index.html"> Home </a>
+                <a href="./about.html"> About </a>
+                <a href="./news.html">News</a>
+                <a href="./meet-the-team.html"> Meet the Team </a>
+            </nav>
         </div>
-
-         <nav class="header-links">
-            <a href="./index.html"> Home </a>
-            <a href="./about.html"> About </a>
-            <a href="./news.html">News</a>
-            <a href="./meet-the-team.html"> Meet the Team </a>
-        </nav>
 
     </header>
 
@@ -59,7 +63,6 @@
             <h3>UI Developer</h3>
         </div>
 
-        
         <div class="profile">
             <div class="prof-img" id="hd" aria-label="Profile pioture of Henry Davis"><a href="https://github.com/HenryRDavis" class="github">Github</a></div>
             <p>Henry Davis</p>
@@ -93,15 +96,15 @@
     </section>
 
     
-    <footer>
-    
-      <nav class="footer-links">
-            <a href="./index.html"> Home </a>
-            <a href="./about.html"> About </a>
-            <a href="./news.html"> News </a>
-            <a href="./meet-the-team.html"> Meet the Team </a>
+<footer id="foot">
+    <a href="meet-the-team.html#topLink">Top</a>
+        <nav>
+            <a href="index.html" id="homeLink"> Home </a>
+            <a href="about.html"> About </a>
+            <a href="News.html"> News </a>
+            <a href="meet-the-team.html"> Meet the Team </a>
         </nav>
+</footer>
 
-    </footer>
 </body>
 </html>
