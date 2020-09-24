@@ -15,10 +15,10 @@ body {
     box-sizing: 100%;
 }
 
-nav {
+/* nav {
     display: flex;
     justify-content: space-around;
-}
+} */
 
 h2, h3, h4 {
     font-family: 'Ubuntu', sans-serif;
@@ -36,11 +36,11 @@ h3 {
     font-size: 1.3rem;
 }
 
-a {
+/* a {
     text-decoration: none;
     color: #0077D6;
     text-align: center;
-}
+} */
 
 section {
     padding: 1% 4% 0;

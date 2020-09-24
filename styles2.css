@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Ubuntu&display=swap');
 
-html, body, div, span, applet, object, iframe,
+/* html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -13,48 +13,52 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-margin: 0;
-padding: 0;
-border: 0;
-font-size: 100%;
-font: inherit;
-vertical-align: baseline;
-}
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 16px;
+    font: inherit;
+    vertical-align: baseline;
+} */
 /*GENERAL STYLES*/
-html{
-    font-size:62.5%;
+
+html {
+    font-size: 62.5%;
 }
-body{
-    font-size:1.6rem;
-    line-height: 1.5;
+body {
+    background-color: #ffffff;
     font-family: 'Antic Slab', serif;
-    margin: 0 5%;
+    color:  #262729;
+    box-sizing: 100%;
+}
+
+h2, h3, h4 {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 1.5% 0;
+    color: #FF5700;
 }
 
 h2 {
-    color: #FF5700;
-    font-size: 2.5rem;
-    font-family: 'Ubuntu', sans-serif;
-    text-align: center;
-    margin-bottom: 2.5%;
+    font-size: 2.3rem;
+    width: 100%;
+}
+
+h3 {
+    font-size: 1.3rem;
 }
 /* Home Styles */
 
-h1 {
-    font-size: 4rem;
-}
-
-header {
+/* header {
     margin:0 auto;
-}
+} */
 
-header nav {
+/* header nav {
     display:flex;
     justify-content: space-around;
-}
-header nav a {
+} */
+/* header nav a {
     text-decoration:none;
-}
+} */
 /* About Reddit */
 
 #aboutRed {
@@ -88,6 +92,11 @@ header nav a {
     text-decoration: none;
 }
 
+.container {
+    margin: 0 5%;
+
+}
+
 /* About Page Styles */
 
 #why {
@@ -107,24 +116,22 @@ header nav a {
 
 @media (max-width: 500px) {
 
-.allSubs {
-    display:flex;
-}
+    .allSubs {
+        display:flex;
+    }
 
-.subreddits {
-    flex-direction:column;
-    align-items:center;
-    margin: 0 7%;
-}
+    .subreddits {
+        flex-direction:column;
+        align-items:center;
+        margin: 0 7%;
+    }
 
-.subreddits img {
-    width: 40%;
-}
+    .subreddits img {
+        width: 40%;
+    }
 
-.subreddit {
-    text-align:center;
+    .subreddit {
+        text-align:center;
+    }
 }
-}
-
-
 
