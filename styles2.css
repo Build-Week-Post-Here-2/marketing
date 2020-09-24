@@ -33,32 +33,23 @@ body {
 }
 
 h2, h3, h4 {
+    font-size: 2rem;
+    text-align:center;
     font-family: 'Ubuntu', sans-serif;
     padding: 1.5% 0;
     color: #FF5700;
 }
-}
+
 /* Home Styles */
-
-/* header {
-    margin:0 auto;
-} */
-
-/* header nav {
-    display:flex;
-    justify-content: space-around;
-} */
-/* header nav a {
-    text-decoration:none;
-} */
 /* About Reddit */
 
-#aboutRed {
+#aboutRed p {
+    text-align:center;
     margin-bottom: 2.5%;
-    text-align: center;
     border-bottom:5px solid #E03102;
     padding-bottom:  2.5%;
 }
+
 
 /* Mid Section */
 
