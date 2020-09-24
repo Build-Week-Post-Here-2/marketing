@@ -40,6 +40,13 @@ h2 {
 }
 /* Home Styles */
 
+header nav {
+    display:flex;
+    justify-content: space-around;
+}
+header nav a {
+    text-decoration:none;
+}
 /* About Reddit */
 
 #aboutRed {

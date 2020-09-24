@@ -15,6 +15,11 @@ button:hover, button:focus {
     border-bottom: 4px solid transparent;
 }
 
+#logo {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 1.5% 0;
+}
+
 .logo-buttons {
     display: flex;
     justify-content: space-between;
@@ -80,13 +85,49 @@ a.skip-nav:focus, a.skip-nav:hover   {
     transition: .2s ease;
 }
 
+/* Footer styles*/
+
+#foot {
+    margin-top: 2.5%;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+#foot #topLink {
+    width: 5%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 3px solid #FF5700;
+    border-bottom: 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+#foot nav {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 3px solid#FF5700;
+    color:  #0077D6;
+    padding: .5%;
+}
+
+#foot nav a {
+    border-left: 1px solid #FF5700;
+    text-decoration: none;
+}
+
+#foot nav #homeLink {
+    border-left: none;
+}
+
+
+/*breakpoints for nav*/
 
 @media (min-width: 280px) {
 
     #logo {
         font-size: 1.2rem;
-        font-family: 'Ubuntu', sans-serif;
-        padding: 1.5% 0;
     }
 
     header {
@@ -108,7 +149,6 @@ a.skip-nav:focus, a.skip-nav:hover   {
     button {
         width: 3.5rem;
         padding: 3%;
-    }
     }
 
     a.skip-nav {
@@ -158,6 +198,15 @@ a.skip-nav:focus, a.skip-nav:hover   {
 
     button {
         padding: 4%;
+    }
+
+    
+    #foot #topLink {
+        width: 15%;
+    }
+
+    #foot nav {
+        padding: 1%;
     }
 }
 
