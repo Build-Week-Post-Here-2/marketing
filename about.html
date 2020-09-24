@@ -5,15 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About </title>
     <link rel="stylesheet" href="styles2.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="header.css">
 </head>
 <body>
-    <header id="head">
-        <h1>Post Here</h1>
-        <nav>
-            <a href="index.html"> Home </a>
-            <a href="about.html"> About </a>
-            <a href="News.html"> News </a>
-            <a href="meet-the-team.html"> Meet the Team </a>
+    <header>
+        <a href="./meet-the-team.html#skip" class="skip-nav">Skip to Content</a>
+        <div class="logo-buttons">
+                <h1>Post Here</h1>
+                <div class="buttons">
+                    <a href="https://front-end-post-here.vercel.app/login"><button>Log In</button></a>
+                    <a href="https://front-end-post-here.vercel.app/signup"><button>Sign Up</button></a>
+                </div>
+            </div>
+         <nav class="header-links">
+            <a href="./index.html"> Home </a>
+            <a href="./about.html"> About </a>
+            <a href="./news.html">News</a>
+            <a href="./meet-the-team.html"> Meet the Team </a>
         </nav>
     </header>
     <section id="why">
@@ -25,8 +34,9 @@
         <p> Our app functions on the basis of triangulating the purpose and content of the user's post, and the right "sub-reddit" to post in.To do this, the app filters through the "sub-reddit's" title and post submissions in order to find the most fitting within the 100,000 plus communities. </p>
     </section>
     <footer id="foot">
+        <a href="index.html" id="topLink">Top</a>
         <nav>
-            <a href="index.html"> Home </a>
+            <a href="index.html" id="homeLink"> Home </a>
             <a href="about.html"> About </a>
             <a href="News.html"> News </a>
             <a href="meet-the-team.html"> Meet the Team </a>
