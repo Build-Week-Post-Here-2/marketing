@@ -197,11 +197,11 @@ a.skip-nav:focus, a.skip-nav:hover   {
     }
 
     .header-links {
-        width: 45%;
+        width: 80%;
     }
 
     .nav-links {
-        width: 80%;
+        width: 100%;
     }
 
     .buttons {
@@ -245,7 +245,7 @@ a.skip-nav:focus, a.skip-nav:hover   {
 }
 
 .buttons {
-    width: 25%;
+    width: 2%;
 }
 
 button {
