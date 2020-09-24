@@ -94,7 +94,9 @@ a.skip-nav:focus, a.skip-nav:hover   {
     align-items: center;
 }
 
-#foot #topLink {
+#foot #top-link {
+    margin-bottom: 0;
+    padding: .3%;
     width: 5%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -247,10 +249,6 @@ a.skip-nav:focus, a.skip-nav:hover   {
         width: 80%;
     }
 
-    .header-links {
-        width: 80%;
-    }
-
     .nav-links {
         width: 100%;
     }
@@ -265,7 +263,7 @@ a.skip-nav:focus, a.skip-nav:hover   {
     }
 
     .header-links {
-        width: 35%;
+        width: 65%;
     }
 }
 
@@ -283,29 +281,30 @@ a.skip-nav:focus, a.skip-nav:hover   {
         font-size: 3rem;
     }
 
-.logo-buttons {
-    width: 80%;
-}
-
-.header-links {
-    width: 45%;
-}
-
-.nav-links {
-    width: 80%;
-}
-
-.buttons {
-    width: 2%;
-}
-
-button {
-    font-size: 1.3rem;
-    padding: 6%;
-    width: 6rem;
-}
+    .logo-buttons {
+        width: 80%;
+    }
 
     .header-links {
         width: 45%;
     }
+
+    .nav-links {
+        width: 80%;
+    }
+
+    .buttons {
+        width: 20%;
+    }
+
+    button {
+        font-size: 1.3rem;
+        padding: 6%;
+        width: 6rem;
+    }
+
+    .header-links {
+        width: 45%;
+    }
+
 }
