@@ -3,6 +3,9 @@ html {
 }
 
 /* Header specific styles */
+html {
+    font-size: 16px;
+}
 
 header {
     margin: 0 auto;
@@ -11,6 +14,11 @@ header {
     flex-wrap: wrap;
     align-content: center;
     justify-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
 }
 
 button:hover, button:focus {
@@ -87,6 +95,14 @@ a.skip-nav:focus, a.skip-nav:hover   {
     border-radius: 10px;
     transform: translateY(0%);
     transition: .2s ease;
+}
+
+a {
+    text-decoration: none;
+    color: #0077D6;
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 1% 0;
 }
 
 /* Footer styles*/
@@ -228,8 +244,9 @@ a.skip-nav:focus, a.skip-nav:hover   {
         font-size: 1.8rem;
     }
 
+
     .buttons {
-    width: 25%;
+    width: 40%;
 }
 
     button {
