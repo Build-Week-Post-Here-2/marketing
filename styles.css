@@ -20,12 +20,9 @@ nav {
     justify-content: space-around;
 }
 
-h1, h2, h3, h4 {
+h2, h3, h4 {
     font-family: 'Ubuntu', sans-serif;
     padding: 1.5% 0;
-}
-
-h2, h3, h4 {
     color: #FF5700;
 }
 

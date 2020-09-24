@@ -85,6 +85,8 @@ a.skip-nav:focus, a.skip-nav:hover   {
 
     #logo {
         font-size: 1.2rem;
+        font-family: 'Ubuntu', sans-serif;
+        padding: 1.5% 0;
     }
 
     header {
